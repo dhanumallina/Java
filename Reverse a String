@@ -1,5 +1,5 @@
-                                   <-- Given a string s , return reverse of the string as output.-->
-
+                                 <-- Given a string s , return reverse of the string as output.-->
+METHOD 1;
 class Solution {
     static String revStr(String s) {
         // code here
@@ -13,7 +13,7 @@ class Solution {
 }
 
 
-
+METHOD2;
 class Solution {
     static String revStr(String s) {
         StringBuilder reversed = new StringBuilder();
