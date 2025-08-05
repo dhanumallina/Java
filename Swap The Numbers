@@ -1,0 +1,20 @@
+                                      <--  Given two numbers a and b, you need to swap their values so a holds the value of b and b holds the value of a. 
+                                           Just write the code to swap values of a and b at the specified place. -->
+
+import java.io.*;
+import java.util.*;
+
+class GFG {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c=0;
+        c=a;
+        a=b;
+        b=c;
+   
+
+        System.out.println(a + " " + b);
+    }
+}
