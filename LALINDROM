@@ -1,0 +1,27 @@
+
+PALINDROM finder
+
+class reverse
+ {
+     public static void main(String[] args)
+     {
+         boolean palendrom=true;
+         String s="qhwbbedhbdhd";
+         int n=s.length();
+         for (int i=0;i<=n/2;i++)
+         {
+             if(s.charAt(i)!=s.charAt(n-i-1))
+             {
+             palendrom=false;
+             }
+         }
+     if(palendrom)
+     {
+         System.out.println("yes");
+     }
+     else
+     {
+    System.out.println("no");
+     }
+     }
+ }
